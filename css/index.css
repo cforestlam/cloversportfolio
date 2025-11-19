@@ -1,0 +1,165 @@
+/* STYLE SHEET FOR INDEX.HTML */
+
+/* page style */
+body {
+    font-family: 'Newsreader', serif;
+    color: #818e57;
+    background-color: #fefcea;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* highlight text */
+.highlight {
+    font-size: 30px;  
+    font-weight: bold;       
+    background-color: #d5debb;
+    padding: 40px;          
+    border-radius: 50px;       
+    display: inline-block;    
+}
+
+/* header logo */
+h1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* header container */
+.header {
+  text-align: center;
+}
+
+.header-inner {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header-inner img {
+  vertical-align: middle;
+}
+
+.header-inner img:first-of-type {
+  margin-right: 100px;
+}
+
+.header-inner img:last-of-type {
+  margin-left: 100px;
+}
+
+/* navigation bar */
+nav {
+    background-color: #6b793d;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ddcbbc;
+    font-weight: bold;
+    border: 2px solid #ddcbbc;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d5debb;
+}
+
+section {
+    margin: 20px 10%;
+    padding: 20px;
+    border-radius: 8px;
+    background: none;
+}
+
+.about-text,
+.intro-text {
+    text-align: right;
+    background-color: #ddcbbc;
+    border: 10px solid #ddcbbc;
+    padding: 30px;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+/* images */
+img {
+    border: 20px solid #6b793e;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+img[src*="cloverlogo1.png"] {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+/* about section */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.about img {
+  width: 250px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.about-text {
+  text-align: right;
+  margin-left: auto;
+}
+
+/* intro/mission section */
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.intro-text {
+  text-align: left;
+  max-width: 60%;
+}
+
+.intro figure img {
+  width: 350px;
+  height: auto;
+  margin-left: 10px;
+}
+
+/* headings */
+h2 {
+    color: #864f23;
+}
+
+/* footer */
+footer {
+    background-color: #b8c499;
+    color: #6b793e;
+    padding: 15px 0;
+    margin-top: 40px;
+}
