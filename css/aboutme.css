@@ -1,0 +1,147 @@
+body {
+    font-family: 'Newsreader', serif;
+    background-color: #fefcea;
+    color: #864f23;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #818e57;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.header {
+  text-align: center;
+}
+
+nav {
+    background-color: #6b793d;
+    padding: 20px 0;
+    margin-bottom: 40px;
+    position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ddcbbc;
+    font-weight: bold;
+    border: 2px solid #ddcbbc;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #d5debb;
+}
+
+.video-text-container-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.video1 {
+  width: 800px;
+  height:200px;
+  border-radius: 20px;
+
+}
+
+.music-text {
+  text-align: center;
+  color: #864f23;
+  font-size: 18px;
+  margin: 15px auto;
+  padding: 10px 22px;
+  border: 2px solid #ddcbbc;
+  border-radius: 50px;
+  background-color: #bbc8a6; 
+  display: inline-block;
+  font-style: italic;
+}
+
+.music-border {
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #bbc8a6;
+  border: #6b793e;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #864f23;
+  transition: all 0.2s ease;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #f6f7d4;
+}
+
+.aboutme-text {
+    text-align: right;
+    background-color: #ddcbbc;
+    border: 10px solid #ddcbbc;
+    padding: 20px;
+    border-radius: 80px;
+    display: inline-block;
+}
+
+img {
+    border: 20px solid #6b793e;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+img[src*="cloverlogo1.png"] {
+  border: none;
+  padding: 0;
+  background: none;
+}
+
+.aboutme img {
+  width: 500px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.aboutme {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
